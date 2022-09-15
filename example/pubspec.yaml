@@ -1,0 +1,21 @@
+name: storage_path_example
+description: Demonstrates how to use the storage_path plugin.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  transparent_image: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  storage_path:
+    path: ../
+flutter:
+  uses-material-design: true
